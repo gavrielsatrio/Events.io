@@ -1,0 +1,33 @@
+.promo-code-container
+{
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.promo-code-images
+{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.promo-code-text
+{
+    color: white;
+    font-weight: bold;
+}
+
+.promo-code-description
+{
+    color: rgb(200, 200, 200);
+    font-weight: 200;
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+.promo-code-people-used
+{
+    font-weight: 200;
+    font-style: italic;
+    font-size: 0.9rem;
+}
