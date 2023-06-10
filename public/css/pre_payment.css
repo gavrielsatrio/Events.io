@@ -1,0 +1,29 @@
+.pre-payment-card
+{
+    background-color: #3E4049;
+    border: none;
+}
+
+.pre-payment-card-header
+{
+    background-color: #BF3861;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.pre-payment-transaction-detail
+{
+    font-weight: 600;
+}
+
+.pre-payment-transaction-text
+{
+    font-size: 0.875rem;
+}
+
+.horizontal-line-dashed
+{
+    height: 1px;
+    border-bottom: 1px dashed #C8C8C8;
+}
