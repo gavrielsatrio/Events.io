@@ -1,0 +1,60 @@
+.horizontal-line-dashed
+{
+    height: 1px;
+    border-bottom: 1px dashed #C8C8C8;
+}
+
+#ticket-card
+{
+    border: none;
+    border-radius: 10px;
+}
+
+.ticket-card-lbl-field
+{
+    color: #646464;
+    font-size: .85rem;
+    font-weight: 300;
+    margin-bottom: .1rem;
+}
+
+.ticket-card-lbl-value
+{
+    color: #212227;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+#ticket-card-divider::before
+{
+    position: absolute;
+    top: -15px;
+    left: -2.8rem;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #212227;
+}
+
+#ticket-card-divider::after
+{
+    position: absolute;
+    top: -15px;
+    right: -2.8rem;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #212227;
+}
+
+#qr-code-container > img
+{
+    width: 100%;
+}
+
+#qr-code-container > canvas
+{
+    width: 100%;
+}
