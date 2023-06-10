@@ -1,0 +1,112 @@
+body{
+    color: white;
+    font-family: 'Poppins';
+}
+
+.labelH1{
+    /* position: absolute; */
+    font-family: 'Mochiy Pop One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.labelH2{
+    /* position: absolute; */
+    margin-top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    /* identical to box height */
+
+    color: #C8C8C8;
+}
+
+.form{
+    /* position: absolute;
+    height: 21px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button-login{
+    /* position: absolute; */
+    width: 269px;
+    height: 46px;
+    /* left: 62px; */
+    margin-top: 4rem;
+
+
+    font-family: 'Poppins';
+    font-style: bold;
+    background: #BF3861;
+    border-radius: 10px;
+}
+
+
+.account{
+    /* position: absolute; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.footer a{
+    color: #F5EC6D;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-size: .875rem;
+    cursor: pointer;
+
+    /* position: absolute; */
+    text-decoration: none;
+}
+
+.forget
+{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.forget:hover
+{
+    color: white;
+}
+
+.socmed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    border: none;
+    border-radius: 360px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.social:hover
+{
+    color: white;
+}
+
+
