@@ -1,0 +1,39 @@
+.event-description
+{
+    z-index: 2;
+}
+
+.event-card-title
+{
+    font-weight: 600;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.event-card-artist
+{
+    color: rgb(210, 210, 210);
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.event-card-people-count
+{
+    color: white;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.event-card-images-full
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.events-people-count-icon
+{
+    margin-top: .1rem;
+}
