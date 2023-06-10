@@ -1,0 +1,145 @@
+#app
+{
+    background-color: #212227;
+    width: 480px;
+}
+
+.container{
+    background-color: #212227;
+    position: absolute;
+    border-radius: 10px;
+    display: contents;
+    background-color: #212227;
+}
+
+.lampukiri {
+    position: absolute;
+    width: 70px;
+    height: 440px;
+    top: -100px;
+    left: 70px;
+    z-index: 0;
+    background: rgba(191, 56, 97, 0.6);
+    filter: blur(18px);
+    transform: rotate(-33deg);
+}
+
+.lampukanan {
+    position: absolute;
+    width: 70px;
+    height: 440px;
+    top: -100px;
+    right: 70px;
+    background: rgba(245, 236, 109, 0.42);
+    filter: blur(18px);
+    transform: rotate(33deg);
+}
+
+.judul {
+    margin-top: 220px;
+}
+
+.judul-text
+{
+    font-family: 'Mochiy Pop One';
+    font-size: 40px;
+    color: #F5EC6D;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
+}
+
+.shadow {
+    width: 100%;
+    height: 24px;
+    border-radius: 50%;
+    background: rgba(200, 200, 200, 0.3);
+    filter: blur(8px);
+}
+
+.button1 {
+    width: 180px;
+    height: 37px;
+    margin-top: 50px;
+    background: #BF3861;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.tulisan1 {
+    width: 110px;
+    height: 21px;
+    padding-left: 68px;
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.button2 {
+    width: 180px;
+    height: 37px;
+    margin-top: 16px;
+    background: #BF3861;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.tulisan2 {
+    font-family: 'Poppins';
+    width: 119px;
+    height: 21px;
+    padding-left: 58px;
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+}
+
+
+.socmed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    border: none;
+    border-radius: 360px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.social:hover
+{
+    color: white;
+}
+
+.tulisan3{
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
+    margin-top: 19px;
+}
+
+.tulisan3:hover
+{
+    color: white;
+}
+
+#content
+{
+    z-index: 3;
+}
