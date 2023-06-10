@@ -1,0 +1,52 @@
+.container{
+    background-color: #212227;
+    position: absolute;
+    border-radius: 10px;
+    display: contents;
+    background-color: #212227;
+    color: white;
+}
+
+.labelH1{
+    width: 158px;
+    height: 35px;
+    margin-left: 32px;
+    font-family: 'Mochiy Pop One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: white;
+}
+
+.labelH2{
+    width: 162px;
+    height: 18px;
+    left: 32px;
+    margin-top: 10px;
+    margin-left: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #C8C8C8;
+}
+
+.dob{
+    margin-top: 24px;
+}
+
+.button-SignUp{
+    /* position: absolute; */
+    width: 269px;
+    height: 46px;
+    /* left: 62px; */
+    margin-top: 5rem;
+    font-family: 'Poppins';
+    font-style: bold;
+    background: #BF3861;
+    border-radius: 10px;
+}
+
+
