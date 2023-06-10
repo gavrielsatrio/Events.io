@@ -1,0 +1,60 @@
+.background-banner-image-container
+{
+    margin: -2.5rem -2rem;
+}
+
+.banner-image
+{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.banner-gradient-cover-pink
+{
+    background: linear-gradient(0deg, rgba(191, 56, 97), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+
+.event-name
+{
+    font-size: 1.5rem;
+}
+
+.event-price
+{
+    background-color: #BF3861;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.link-read-more
+{
+    color: #BF3861;
+    cursor: pointer;
+}
+
+.event-description-icon-container
+{
+    border-radius: 50%;
+    padding: .5rem;
+    background-color: #BF3861;
+}
+
+.event-description-icon
+{
+    width: 1.5rem;
+}
+
+.event-description-icon-text-top
+{
+    font-size: 0.875rem;
+    color: #C8C8C8;
+}
+
+.event-description-icon-text-bottom
+{
+    font-size: 0.875rem;
+    font-weight: bold;
+}
