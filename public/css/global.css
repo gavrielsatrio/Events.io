@@ -1,0 +1,419 @@
+*
+{
+    font-family: "Poppins";
+}
+
+body
+{
+    background-color: #FFF;
+    color: white;
+}
+
+#app
+{
+    background-color: #212227;
+    width: 480px;
+    padding: 2.5rem 2rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    min-height: 100%;
+}
+
+.app-content
+{
+    z-index: 0;
+    padding: 2.5rem 2rem;
+    margin: -2.5rem -2rem -1rem;
+}
+
+#app::-webkit-scrollbar
+{
+    display: none;
+}
+
+.no-scrollbars
+{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.no-scrollbars::-webkit-scrollbar
+{
+    display: none;
+}
+
+.background-primary
+{
+    background-color: #212227;
+}
+
+.background-secondary
+{
+    background-color: #3E4049;
+}
+
+.background-pink
+{
+    background-color: #BF3861;
+}
+
+.text-primary-theme
+{
+    color: #212227;
+}
+
+.text-app-name
+{
+    font-family: "Mochiy Pop One";
+    font-size: 1.6rem;
+}
+
+.text-header
+{
+    font-family: "Mochiy Pop One";
+    font-size: 1.3rem;
+}
+
+.text-subheader
+{
+    margin-top: 1.5rem;
+}
+
+.text-description
+{
+    /* text-align: justify; */
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #C8C8C8;
+}
+
+.input-with-icon
+{
+    font-size: 0.875rem;
+    line-height: normal;
+    text-indent: 24px;
+}
+
+.dialogs
+{
+    color: white;
+    background-color: #3E4049;
+    width: 320px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.4);
+    padding: 0;
+}
+
+.dialog-header
+{
+    font-family: "Mochiy Pop One";
+    font-size: 1.25rem;
+}
+
+.dialogs::backdrop
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.dialog-description
+{
+    font-size: 0.75rem;
+    color: #C8C8C8;
+}
+
+.btn-pink
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: #BF3861;
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 0.75rem;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    position: relative;
+    opacity: 1;
+}
+
+.btn-pink-outline
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 0.75rem;
+    box-shadow: inset 0 0 0 2px #BF3861;
+    box-sizing: border-box;
+    outline: none;
+    position: relative;
+    opacity: 1;
+}
+
+.btn-pink-wrap-content
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #BF3861;
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 0.75rem;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    position: relative;
+    opacity: 1;
+}
+
+.btn-pink:hover
+{
+    color: white;
+}
+
+.btn-pink-outline:hover
+{
+    color: white;
+}
+
+.btn-pink-wrap-content:hover
+{
+    color: white;
+}
+
+.btn-pink-bold
+{
+    font-weight: 600;
+}
+
+.btn-pink-disabled
+{
+    opacity: 0.8;
+}
+
+.icon-btn
+{
+    font-size: 1rem;
+    position: absolute;
+    right: 0.75rem;
+}
+
+.combo-box
+{
+    color: white;
+    background-color: #BF3861;
+    border: none;
+    outline: none;
+    padding: .5rem .5rem .5rem 1rem;
+    border-radius: 2rem;
+    border-right: 1rem solid transparent;
+}
+
+.bottom-sheet
+{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    bottom: 0;
+    margin: -50% -2rem;
+    padding: 1.5rem 2rem 2rem;
+    z-index: 2;
+    box-shadow: 0px -4px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+.bottom-sheet-handle
+{
+    background-color: rgb(100, 100, 100);
+    width: 42px;
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.btn-action-top
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    top: 2rem;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(210, 210, 210 , 0.6);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    padding: .25rem;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    text-decoration: none;
+}
+
+.btn-action-top:hover
+{
+    color: white;
+}
+
+.btn-action-top:active
+{
+    color: white;
+}
+
+.btn-action-top-left
+{
+    left: 2rem;
+}
+
+.btn-action-top-right
+{
+    right: 2rem;
+}
+
+.btn-action-top-small
+{
+    padding: .5rem;
+}
+
+.cursor-pointer
+{
+    cursor: pointer;
+}
+
+.btn-back
+{
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(210, 210, 210 , 0.6);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    padding: .25rem;
+    cursor: pointer;
+}
+
+.btn-back-pairing-text
+{
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: .25rem;
+}
+
+.alert-theme
+{
+    display: flex;
+    border-radius: 4px;
+    font-size: .9rem;
+    padding: 1.2rem 1.3rem;
+    align-items: center;
+}
+
+.alert-theme-icon
+{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.alert-theme-text
+{
+    font-weight: 500;
+    color: #212227;
+}
+
+.alert-success-theme
+{
+    background-color: #ebfbf6;
+    color: #38d09c;
+}
+
+.alert-danger-theme
+{
+    background-color: #fdedee;
+    color: #f04c62;
+}
+
+.rounded-5-px
+{
+    border-radius: 5px;
+}
+
+.rounded-10-px
+{
+    border-radius: 10px;
+}
+
+.bottom-nav
+{
+    z-index: 1;
+    background-color: #BF3861;
+    margin: 0rem -2rem -2.5rem;
+    padding: 1rem 2rem 0.7rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bottom-nav-icons-selected
+{
+    color: white !important;
+}
+
+.bottom-nav-icons
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bottom-nav-icons:hover
+{
+    color: white;
+}
+
+.label-input
+{
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.input
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: .875rem;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: none;
+}
+::placeholder { /* Recent browsers */
+    text-transform: none;
+}
+
+.mt-7
+{
+    margin-top: 7rem;
+}
+
+.z-index-2
+{
+    z-index: 2;
+}
