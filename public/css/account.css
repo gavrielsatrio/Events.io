@@ -1,0 +1,102 @@
+.previous {
+    background-color: #D9D9D9;
+    color: white;
+    width: 32px;
+    height: 31px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.judul{
+    font-family: 'Mochiy Pop One';
+    font-size: 16px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 6px;
+}
+
+.header{
+    position: absolute;
+    left: 470px;
+    top: 30px;
+    display: inline-flex;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.overlay{
+    background: linear-gradient(to bottom, rgba(240, 132, 85, 0.5), rgba(240, 132, 85, 0.5));
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    color: white;
+    font-family: "Mochiy Pop One";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 15px;
+}
+
+#btn-next{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+hr{
+    color:black;
+    width: 343px;
+}
+
+.text-header2{
+    width: 170px;
+    height: 24px;
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    /* margin-top: 10px; */
+}
+
+#btn-next2{
+    margin-left: 160px;
+    margin-bottom: 5px;
+}
+
+#show_bg{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(240, 132, 85, 1));
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.profile-link
+{
+    color: white;
+}
+
+.profile-link:hover
+{
+    background-color: transparent;
+    color: white;
+}
+
+.border-bottom-link
+{
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.border-bottom-link:hover
+{
+    color: rgb(180, 180, 180);
+}
