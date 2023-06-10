@@ -1,0 +1,18 @@
+#btn-profile
+{
+    cursor: pointer;
+}
+
+#calendar-bottom-sheet
+{
+    padding-bottom: 4rem;
+    margin: 2rem -2rem -2.5rem;
+}
+
+.calendar-events-indicator
+{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #BF3861;
+}
