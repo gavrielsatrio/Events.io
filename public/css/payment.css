@@ -1,0 +1,151 @@
+.time-text
+{
+    background-color: white;
+    border-radius: 4px;
+    width: 1.8rem;
+    color: black;
+    margin: 0 .25rem;
+}
+
+.time-colon
+{
+    padding: .5rem;
+    border-radius: 4px;
+    width: 1rem;
+    vertical-align: middle;
+    color: white;
+    margin: 0;
+}
+
+.payment-method
+{
+    width: 90px;
+    height: 45px;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(120, 120, 120);
+}
+
+.payment-method-images
+{
+    width: 90px;
+    height: 45px;
+    border-radius: 8px;
+    padding: .6rem;
+    object-fit: contain;
+    filter: grayscale();
+}
+
+.payment-method-selected
+{
+    background-color: white;
+    border: 2px solid #0087c7;
+}
+
+.payment-method-selected > .payment-method-images
+{
+    filter: none;
+}
+
+#payment-method-container
+{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#payment-method-container::-webkit-scrollbar
+{
+    display: none;
+}
+
+#lbl-status
+{
+    font-size: .9em;
+}
+
+.horizontal-line-dashed
+{
+    height: 1px;
+    border-bottom: 1px dashed #C8C8C8;
+}
+
+#payment-card
+{
+    border: none;
+    border-radius: 10px;
+    margin-top: 170px;
+}
+
+#payment-card-img
+{
+    margin-top: -160px;
+    border-radius: 5px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.payment-card-lbl-field
+{
+    color: #646464;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.payment-card-lbl-value
+{
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+#payment-card-divider::before
+{
+    position: absolute;
+    top: -15px;
+    left: -2.8rem;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #212227;
+}
+
+#payment-card-divider::after
+{
+    position: absolute;
+    top: -15px;
+    right: -2.8rem;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #212227;
+}
+
+#payment-card-lbl-price
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#payment-card-lbl-price-cents
+{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.payment-card-img-gradient-cover-pink
+{
+    background: linear-gradient(0deg, rgba(191, 56, 97), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+
+.rounded-5-px
+{
+    border-radius: 5px;
+}
