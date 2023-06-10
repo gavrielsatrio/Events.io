@@ -1,0 +1,114 @@
+.previous {
+    background-color: #D9D9D9;
+    color: white;
+    width: 32px;
+    height: 31px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.judul{
+    font-family: 'Mochiy Pop One';
+    font-size: 16px;
+    color: white;
+    margin-left: 16px;
+    /* margin-top: 6px; */
+}
+
+.header{
+    position: absolute;
+    left: 470px;
+    top: 30px;
+    display: inline-flex;
+}
+
+.labelH1{
+    width: 69px;
+    height: 23px;
+    margin-left: 32px;
+    font-family: 'Mochiy Pop One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    /* margin-top: 6px; */
+}
+
+.labelH2{
+    width: 120px;
+    height: 18px;
+    left: 32px;
+    margin-top: 10px;
+    margin-left: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #C8C8C8;
+}
+
+.home-card-gradient-cover-pink{
+    background: linear-gradient(0deg, rgba(191, 56, 97), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+
+.home-card-gradient-cover-orange{
+    background: linear-gradient(0deg, rgba(240, 132, 85), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+
+.home-card-container{
+    box-sizing: border-box;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    margin-right: -2rem;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.home-card-shadow{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.home-card-title{
+    font-weight: 600;
+    z-index: 2;
+    color: white;
+    font-size: 1rem;
+}
+
+.home-card-artist{
+    z-index: 2;
+    color: rgb(210, 210, 210);
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.home-card-qty-and-date{
+    z-index: 2;
+
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.card-text
+{
+    z-index: 2;
+}
+
+.home-card-images-full{
+    width: 100%;
+    /* width: 345px; */
+    height: 200px;
+    object-fit: cover;
+}
+
+.rounded-10-px{
+    border-radius: 10px;
+}
