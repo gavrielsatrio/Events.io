@@ -1,0 +1,69 @@
+.labelH1{
+    /* position: absolute; */
+
+    font-family: 'Mochiy Pop One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+.labelH2{
+    /* position: absolute; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #C8C8C8;
+}
+.form{
+    /* position: absolute;
+    height: 21px; */
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.button-SignUp{
+    /* position: absolute; */
+    width: 269px;
+    height: 46px;
+    /* left: 62px; */
+    margin-top: 5rem;
+
+
+    font-family: 'Poppins';
+    font-style: bold;
+    background: #BF3861;
+    border-radius: 10px;
+}
+
+
+.account{
+    /* position: absolute; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.footer a{
+    color: #F5EC6D;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-size: .875rem;
+
+    /* position: absolute; */
+    text-decoration: none;
+}
+
+
