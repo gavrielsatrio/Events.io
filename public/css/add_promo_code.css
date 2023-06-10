@@ -1,0 +1,49 @@
+.promoH1{
+    font-family: 'Mochiy Pop One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.promoH2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+    color: #C8C8C8;
+}
+.form{
+    /* position: absolute;
+    height: 21px; */
+    margin-top: 4rem;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 10px;
+}
+.icon-profile a{
+    position: relative;
+
+    color:#FFFFFF;
+}
+
+.button-Request{
+        /* position: absolute; */
+        width: 269px;
+        height: 46px;
+        /* left: 62px; */
+        margin-top: 5rem;
+    
+    
+        font-family: 'Poppins';
+        font-style: bold;
+        background: #BF3861;
+        border-radius: 10px;
+}
