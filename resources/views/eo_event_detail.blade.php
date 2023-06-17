@@ -35,7 +35,7 @@
     <div class="container-fluid vh-100 px-0 overflow-hidden">
         <div class="d-flex justify-content-center h-100">
             <div class="d-flex flex-column overflow-auto" id="app">
-                <div class="d-inline-flex flex-column position-relative" id="top-image-container">
+                <div class="d-inline-flex flex-column position-relative overflow-hidden" id="top-image-container">
                     <img src="{{ asset('images/'.$event->banner_path) }}" alt="" id="top-image">
                     <div class="position-absolute" style="background: linear-gradient(0deg, {{ $event->gradient_cover_color }}, rgba(0, 0, 0, 0)); z-index: 1;" id="top-image-linear-gradient"></div>
                     <h5 class="mb-0 position-absolute" id="event-name">{{ $event->name }}</h5>
