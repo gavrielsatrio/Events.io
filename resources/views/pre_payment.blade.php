@@ -103,7 +103,7 @@
                             <tr>
                                 <td class="pre-payment-transaction-text fw-light">Price</td>
                                 <td>:</td>
-                                <td class="pre-payment-transaction-text pre-payment-transaction-detail">IDR {{ str_replace(',', '.', number_format($transaction->event_ticket_category->price, 0)) }}</td>
+                                <td class="pre-payment-transaction-text pre-payment-transaction-detail">IDR {{ str_replace(',', '.', number_format($transaction->event_ticket_category->price * $transaction->qty, 0)) }}</td>
                             </tr>
                             <tr>
                                 <td colspan="3">
@@ -113,12 +113,12 @@
                             <tr>
                                 <td class="pre-payment-transaction-text fw-light">Service Tax</td>
                                 <td>:</td>
-                                <td class="pre-payment-transaction-text pre-payment-transaction-detail">IDR {{ str_replace(',', '.', number_format($transaction->event_ticket_category->price * 0.03, 0)) }}</td>
+                                <td class="pre-payment-transaction-text pre-payment-transaction-detail">IDR {{ str_replace(',', '.', number_format($transaction->event_ticket_category->price * 0.03 * $transaction->qty, 0)) }}</td>
                             </tr>
                             <tr>
                                 <td class="pre-payment-transaction-text fw-light">Total Price</td>
                                 <td>:</td>
-                                <td class="pre-payment-transaction-text pre-payment-transaction-detail">IDR {{ str_replace(',', '.', number_format($transaction->event_ticket_category->price + ($transaction->event_ticket_category->price * 0.03), 0)) }}</td>
+                                <td class="pre-payment-transaction-text pre-payment-transaction-detail">IDR {{ str_replace(',', '.', number_format(($transaction->event_ticket_category->price * $transaction->qty) + ($transaction->event_ticket_category->price * $transaction->qty * 0.03), 0)) }}</td>
                             </tr>
                         </table>
                     </div>
