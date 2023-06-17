@@ -59,6 +59,7 @@ class EventDetailController extends Controller
         {
             $transactions = Transaction::where('customer_id', $userID)
                 ->where('event_id', $eventTicketCategory->event->id)
+                ->where('status', '!=', 'CANCEL')
                 ->sum('qty');
 
             if($transactions >= 2)
