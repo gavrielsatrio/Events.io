@@ -123,6 +123,7 @@ Route::prefix('eo-event')->group(function()
     Route::get('/{eventID}', [EOEventDetailController::class, 'render']);
     Route::get('/{eventID}/add-promo-code', [AddPromoCodeController::class, 'render']);
     Route::post('/{eventID}/add-promo-code/add', [AddPromoCodeController::class, 'add']);
+    Route::get('/{eventID}/add-promo-code/success', [AddPromoCodeController::class, 'success']);
 });
 
 Route::prefix('/forget-password')->group(function()

@@ -49,6 +49,11 @@ class AddPromoCodeController extends Controller
             'description' => $request->description
         ]);
 
-        return redirect('/eo-home');
+        return redirect("eo-event/$request->event_id/add-promo-code/success");
+    }
+
+    public function success(Request $request)
+    {
+        return view('success_event_promo_code');
     }
 }
